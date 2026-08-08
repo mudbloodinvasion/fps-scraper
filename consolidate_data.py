@@ -101,13 +101,7 @@ def process_file(filepath):
 
         aadhaar = row.get("aadhaar_authenticated", 0)
 
-        if total > 0:
-            row["aadhaar_authenticated_pct"] = round(
-                aadhaar * 100 / total,
-                2
-            )
-        else:
-            row["aadhaar_authenticated_pct"] = 0
+       
 
         flatten_table(
             row,
