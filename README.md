@@ -17,6 +17,14 @@ https://impds.nic.in/sale/
 10. To improve synchronization , explicit waits are used for loaders and clickable buttons
 11. Fps id authentication used to avoid wrong extraction.
 
+## Limitations
+
+The scraper depends on the current structure of the IMPDS website. Changes to HTML elements, CSS classes, IDs, JavaScript functions, or page navigation may require changes to the Selenium selectors.
+
+If a required table fails to load or contains unexpected data, the corresponding fields may be missing or represented as zero during consolidation.
+
+May require modification if more states and months are needed.
+
 ## Structure
 
 ```text
