@@ -1,6 +1,6 @@
 # **Goa FPS scraper**
 ## What the project does ?
-FPS scraper is an automated website scraping pipeline using selenium that extracts Fair Price Shop sale transactions from the IMDPS portal . The extracted data includes transaction summaries, authentication information, ration-card transactions, and commodity-wise distributed quantities. After extraction of all the required transactions , scraped data is first stored as separate JSON files for each month and district then this pipeline consolidates all the data into one csv format file.
+Fair Price Shop Scraper is an automated website scraping pipeline using selenium that extracts Fair Price Shop sale transactions from the IMDPS portal . The extracted data includes transaction summaries, authentication information, ration-card transactions, and commodity-wise distributed quantities. After extraction of all the required transactions , scraped data is first stored as separate JSON files for each month and district then this pipeline consolidates all the data into one csv format file.
 ## Website 
 https://impds.nic.in/sale/
 
